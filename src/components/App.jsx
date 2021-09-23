@@ -14,13 +14,15 @@ function App() {
         })
     }, []);
 
-
+    const soldout = () => {
+        alert("Damn, this item is soldout, sorry!")
+    }
 
     return (
         <div>
             <div className="header">Knygynas "Iš po skverno"!</div>
             <div className="books-container">
-                 {books.map((book) => (<Book key={book.id} data={book}></Book>))}
+                 {books.map((book) => (<Book key={book.id} data={book} soldout={soldout}></Book>))}
              </div>
         </div>
     )

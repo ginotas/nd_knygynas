@@ -9,7 +9,7 @@ function Book(props) {
             <div className="title">{props.data.title}</div>
             <div className="author">Author: {props.data.author}</div>
             <div className="price">{props.data.price} eur</div>
-            <button clasaName="button">Buy It!</button>
+            <button className="button" onClick={props.soldout}>Buy It!</button>
         </div>
     )
 }
