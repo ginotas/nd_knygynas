@@ -5,7 +5,7 @@ function Padariau(props) {
 
     return (
         <div className="book">
-            <button className="button" onClick={props.soldout}>Padariau :) </button>
+            <button className="buttonX" onClick={props.soldout}>Padariau :) </button>
         </div>
     )
 }

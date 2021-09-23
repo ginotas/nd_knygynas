@@ -21,11 +21,12 @@ function App() {
 
     return (
         <div>
+            <Padariau></Padariau>
             <a href="https://github.com/A-Kija"><div className="header">Knygynas "Forest"!</div></a>
             <div className="books-container">
                  {books.map((book) => (<Book key={book.id} data={book} soldout={soldout}></Book>))}
              </div>
-             <Padariau></Padariau>
+             
         </div>
     )
 
