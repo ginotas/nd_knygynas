@@ -1,11 +1,11 @@
 import React from "react";
 
 
-function Padariau(props) {
+function Padariau() {
 
     return (
         <div className="book">
-            <button className="buttonX" onClick={props.soldout}>Padariau :) </button>
+            <button className="buttonX">Padariau :) </button>
         </div>
     )
 }
