@@ -2,6 +2,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import Book from "./book";
+import Padariau from "./padariau";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <div className="books-container">
                  {books.map((book) => (<Book key={book.id} data={book} soldout={soldout}></Book>))}
              </div>
+             <Padariau></Padariau>
         </div>
     )
 
