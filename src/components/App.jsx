@@ -20,7 +20,7 @@ function App() {
 
     return (
         <div>
-            <div className="header">Knygynas "Iš po skverno"!</div>
+            <a href="https://github.com/A-Kija"><div className="header">Knygynas "Forest"!</div></a>
             <div className="books-container">
                  {books.map((book) => (<Book key={book.id} data={book} soldout={soldout}></Book>))}
              </div>

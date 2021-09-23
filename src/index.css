@@ -118,3 +118,8 @@ img:hover {
   font-size: 20px;
   color: darkblue;
 }
+
+a {
+  color: black;
+  text-decoration: none;
+}
